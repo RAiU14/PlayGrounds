@@ -6,33 +6,41 @@ Learning Path right now:
 - [ ] Relearn basic CLI commands - Linux/Bash.
 
     ![](https://geps.dev/progress/15)
-- [ ] Might as well learn to document things on the way using this MD File. 
+- [x] Might as well learn to document things on the way using this MD File. 
+Progression Bar Reference: https://github.com/gepser/markdown-progress 
 
-    ![](https://geps.dev/progress/15)
+    ![](https://geps.dev/progress/60)
 
 - [ ] Master Git. 
 
-    ![](https://geps.dev/progress/40)
-    My Git Cheatsheet Reference: https://www.geeksforgeeks.org/git-cheat-sheet/ 
-    ❌ Make an action where the a routine check will look for an update in the local repository and push to the branch if there are significant changes maded. 
-    I learnt that Github action is something that is something performed or actioned on the Github environment and not something from. [This information will be removed shortly.]
+    ![](https://geps.dev/progress/50)
+
     My reference: https://www.geeksforgeeks.org/introduction-to-github-actions/
+    My Git Cheatsheet Reference: https://www.geeksforgeeks.org/git-cheat-sheet/ 
     - [ ] Will create an automatic setup to commit changes to the git but not push with the help of: 
-    - Windows Task Scheduler 
-    - PS1 script 
+    - PS1 script to create an automated Windows Task Scheduler [x]
+        This is an automated process which occurs everyday at a specific time. 
+        Improvement version should provide active trigger for only when changes in the repository are made. 
+        Is this a healthy practice? 
+        In short. No. I am just playing around with whatever I can find. 
+    - PS1 script to automate git commands.
+    Why? I suppose it is see what I can do with some reading. 
+    Reference: 
     
+    Project Progress: ![](https://geps.dev/progress/50)
     
-    - Added .gitignore from a template. Reference Link: https://www.toptal.com/developers/gitignore
+    - [x] Added .gitignore from a template. 
 
     [WIP] ![](https://geps.dev/progress/10)
 - [ ] Learn Docker/Kubernetes. 
 
 
 - [ ] Showcase my work!
+    ![](https://geps.dev/progress/50)
     - [x] Converted my resume to viewable webpage! [!!Removed Personal details!!]
         - [ ] Working on an appealing view. 
-    - [ ] Create a portfolio page to showcase my Credly badges with the resume!
-        <!-- WIP. Might combine the one from above to do the same.  -->
+        - [ ] Create a portfolio page to showcase my Credly badges with the resume!
+        <!-- WIP. Might combine the one from above to do the same.  --> 
     - [ ] Researching for a Project.
         - [ ] Bitwarden APIs to create a simple auth server if possible. Checking the possibility. 
         - [ ] Project using Netmiko to perform health check related log collection automatically. 
