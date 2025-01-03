@@ -1,22 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>RAiU CV</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - RAiU</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header p {
+            margin: 5px 0;
+        }
+
+        header a {
+            text-decoration: none;
+            color: black;
+            margin: 0 10px;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: black;
+            border-bottom: 2px solid black;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .entry, .exp1, .exp2, ul {
+            margin-left: 20px;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <header>
             <p>
-                <a>Credly URL</a> | 
-                <a>LinkedIn URL</a> | 
-                <a>GitHub</a>
+                <a href="#">Credly URL</a> |
+                <a href="#">LinkedIn URL</a> |
+                <a href="#">GitHub</a>
             </p>
-            <p>Bangalore, India 
+            <p>Bangalore, India</p>
         </header>
 
         <section id="about">
             <h2>About Me</h2>
-            <hr>
             <p>
                 I am an Associate Network Engineer proficient in routing, switching, wireless technologies, and network automation. I thrive on challenges and take ownership of tasks from inception to completion. I excel in utilizing my knowledge and certifications to bring a proactive approach and relentless commitment to delivering impactful solutions with the help of automation.
             </p>
@@ -24,7 +88,6 @@
 
         <section id="skills">
             <h2>Skill Set</h2>
-            <hr>
             <ul>
                 <li><strong>Programming Languages:</strong> C, Webdesigning, Java, Python</li>
                 <li><strong>Networking Concepts:</strong> OSI and TCP/IP model, Network Types, TCP/IP Protocols (ARP, IP, ICMP, TCP, UDP, FTP, SNMP, TELNET, SSH, HTTP, HTTPS, DHCP, DNS), VLANS, STP, NAT, SVI, SDI, Wireless Technologies, Routing Protocols (OSPF, BGP, EIGRP), Subnetting</li>
@@ -34,21 +97,19 @@
 
         <section id="education">
             <h2>Education</h2>
-            <hr>
             <div class="entry">
-                <strong>REVA University</strong> - Masters in Computer Application (2022)<br>
-                <strong>Acharya Institute of Graduate Studies</strong> - Bachelors in Computer Application (2020)
+                <p><strong>REVA University</strong> - Masters in Computer Application (2022)</p>
+                <p><strong>Acharya Institute of Graduate Studies</strong> - Bachelors in Computer Application (2020)</p>
             </div>
         </section>
 
         <section id="experience">
             <h2>Experience</h2>
-            <hr>
             <div class="exp1">
                 <p><strong>Associate Network Engineer (Wireless/SDI)</strong> - NTT Data Inc, Bangalore, India (Aug 2023 - Present)</p>
                 <ul>
                     <li>Post Sales Services, Solutions and Support for Cisco Networking Devices - Routers, Switches, WLC, Access Points.</li>
-                    <li>Performed Remote and Live Troubleshooting for devices with client for networking related problems.</li>
+                    <li>Performed Remote and Live Troubleshooting for devices with client for networking-related problems.</li>
                     <li>Configured and Maintained Routing, Switching, and Wireless Network for critical clients globally.</li>
                     <li>Collaborated for deployment, configuration, upgrades, and health checks.</li>
                     <li>Created Knowledge Articles to assist business with escalation management.</li>
@@ -67,7 +128,6 @@
 
         <section id="certifications">
             <h2>Certifications</h2>
-            <hr>
             <ul>
                 <li>Cisco: Certified DevNet Associate</li>
                 <li>Microsoft: Introduction to Programming Using Python</li>
@@ -75,7 +135,7 @@
                 <li>Microsoft: Database Fundamentals</li>
                 <li>Microsoft: Introduction to Programming Using JavaScript</li>
             </ul>
-        </section>
+        </section>>
     </div>
 </body>
 </html>

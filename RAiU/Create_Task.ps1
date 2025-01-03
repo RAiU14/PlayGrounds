@@ -1,5 +1,5 @@
 # Note: This will create a schedule in Windows Task Scheduler. 
-# Have not tested it yet. 
+# Have not tested the scheduled run yet. However the task will be created and can be viewed on the Task Scheduler. 
 $TaskName = "MyGitAutomationTask"
 $TaskDescription = "Run Git Automation Script"
 $ScriptPath = "" # Path to the Git Automation script
